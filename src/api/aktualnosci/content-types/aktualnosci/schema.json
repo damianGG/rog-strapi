@@ -4,7 +4,7 @@
   "info": {
     "singularName": "aktualnosci",
     "pluralName": "aktualnoscis",
-    "displayName": "Aktualnosci",
+    "displayName": "Czas Kobiet Aktualności",
     "description": ""
   },
   "options": {
@@ -40,14 +40,15 @@
       "type": "string"
     },
     "PlikDoPobrania": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
