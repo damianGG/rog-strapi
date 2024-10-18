@@ -145,7 +145,7 @@ const Register = ({ authType, fieldsToDisable, noSignin, onSubmit, schema }) => 
                       <Typography as="h1" variant="alpha">
                         {formatMessage({
                           id: 'Auth.form.welcome.title',
-                          defaultMessage: 'Welcome to Strapi!',
+                          defaultMessage: 'Cześć!',
                         })}
                       </Typography>
                     </Box>
@@ -214,13 +214,13 @@ const Register = ({ authType, fieldsToDisable, noSignin, onSubmit, schema }) => 
                           label={formatMessage(
                             passwordShown
                               ? {
-                                  id: 'Auth.form.password.show-password',
-                                  defaultMessage: 'Show password',
-                                }
+                                id: 'Auth.form.password.show-password',
+                                defaultMessage: 'Show password',
+                              }
                               : {
-                                  id: 'Auth.form.password.hide-password',
-                                  defaultMessage: 'Hide password',
-                                }
+                                id: 'Auth.form.password.hide-password',
+                                defaultMessage: 'Hide password',
+                              }
                           )}
                         >
                           {passwordShown ? <Eye /> : <EyeStriked />}
@@ -255,13 +255,13 @@ const Register = ({ authType, fieldsToDisable, noSignin, onSubmit, schema }) => 
                           label={formatMessage(
                             confirmPasswordShown
                               ? {
-                                  id: 'Auth.form.password.show-password',
-                                  defaultMessage: 'Show password',
-                                }
+                                id: 'Auth.form.password.show-password',
+                                defaultMessage: 'Show password',
+                              }
                               : {
-                                  id: 'Auth.form.password.hide-password',
-                                  defaultMessage: 'Hide password',
-                                }
+                                id: 'Auth.form.password.hide-password',
+                                defaultMessage: 'Hide password',
+                              }
                           )}
                         >
                           {confirmPasswordShown ? <Eye /> : <EyeStriked />}
