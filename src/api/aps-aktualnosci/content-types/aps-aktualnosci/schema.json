@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aps_aktualnoscis",
+  "info": {
+    "singularName": "aps-aktualnosci",
+    "pluralName": "aps-aktualnoscis",
+    "displayName": "APS Aktualności"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "data": {
+      "required": true,
+      "type": "date"
+    },
+    "opis": {
+      "type": "blocks",
+      "required": true
+    },
+    "podtytul": {
+      "type": "text"
+    },
+    "zdjecie": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "TekstPlikDoPobrania": {
+      "type": "string"
+    },
+    "PlikDoPobrania": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
