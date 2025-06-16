@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lsi_dokumenties",
+  "info": {
+    "singularName": "lsi-dokumenty",
+    "pluralName": "lsi-dokumenties",
+    "displayName": "LSI Dokumenty"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "kolorowy": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "czarnobialy": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rank": {
+      "type": "integer"
+    }
+  }
+}

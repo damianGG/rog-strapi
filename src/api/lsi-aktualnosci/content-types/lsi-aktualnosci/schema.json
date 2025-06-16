@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lsi_aktualnoscis",
+  "info": {
+    "singularName": "lsi-aktualnosci",
+    "pluralName": "lsi-aktualnoscis",
+    "displayName": "LSI Aktualnosci"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "opis": {
+      "type": "blocks",
+      "required": true
+    },
+    "podtytul": {
+      "type": "text"
+    },
+    "zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "TekstPlikDoPobrania": {
+      "type": "string"
+    },
+    "PlikDoPobrania": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
