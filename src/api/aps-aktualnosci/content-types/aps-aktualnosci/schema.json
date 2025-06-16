@@ -4,7 +4,8 @@
   "info": {
     "singularName": "aps-aktualnosci",
     "pluralName": "aps-aktualnoscis",
-    "displayName": "APS Aktualności"
+    "displayName": "PSI Aktualności",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,24 +27,26 @@
       "type": "text"
     },
     "zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "TekstPlikDoPobrania": {
       "type": "string"
     },
     "PlikDoPobrania": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "aps-dokumenty",
     "pluralName": "aps-dokumenties",
-    "displayName": "APS Dokumenty"
+    "displayName": "PSI Dokumenty",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,24 +16,26 @@
       "type": "string"
     },
     "kolorowy": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "czarnobialy": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "rank": {
       "type": "integer"
